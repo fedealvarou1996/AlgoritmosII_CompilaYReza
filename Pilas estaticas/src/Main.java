@@ -16,7 +16,7 @@ public class Main {
         probarPila("Estrategia 1", p1);
         probarPila("Estrategia 2", p2);
         probarPila("Estrategia 3", p3);
-        probarPilaString("Estrategia 4", p4);
+        historialNavegacionURL("historialNavegacionURL", p4);
     }
 
     public static void probarPila(String nombre, PilaTDA pila) {
@@ -42,7 +42,7 @@ public class Main {
         System.out.println();
     }
 
-    public static void probarPilaString(String nombre, PilaTDAStrings pilaString) {
+    public static void historialNavegacionURL(String nombre, PilaTDAStrings pilaString) {
         System.out.println("=== " + nombre + " ===");
 
         pilaString.InicializarPila();
